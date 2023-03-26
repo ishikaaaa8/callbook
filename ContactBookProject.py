@@ -11,15 +11,13 @@ while True:
     if command == "A":
         name = input("Enter the name:")
         phone = input("Enter phone number:")
-        email = input("Enter email address:")
+        email = input("Enter email Address:")
         location = input("Enter the location:")
         dict_name[name] =[]
         dict_name[name].append(Phone)
         dict_name[name].append(Email)
         dict_name[name].append(Location)
-
-    elif command == "D":
-        name = input("Enter name to delete:")
+Delete:")
         if name in list(dict_name.keys()):
             del dict_name[name]
         else:
