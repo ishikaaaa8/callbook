@@ -15,8 +15,8 @@ while True:
         location = input("Enter the location:")
         dict_name[name] =[]
         dict_name[name].append(Phone)
-        dict_name[name].append(email)
-        dict_name[name].append(location)
+        dict_name[name].append(Email)
+        dict_name[name].append(Location)
 
     elif command == "D":
         name = input("Enter name to delete:")
