@@ -39,9 +39,9 @@ while True:
                 del dict_name[name]
             elif what == '2':
                 new_phone = int(input("Enter the new phone number:"))
-                dict_name[name][0] = new_phone
+                dict_name[name][0] = new_pho
             elif what == '3':
-                new_email=input('enter new email id:')
+                new_email=input('enter new email id:'
                 dict_name[name][1] = new_email
             elif what == '4':
                 new_location=input('enter new location:')
@@ -54,7 +54,7 @@ while True:
         print('-'*99)
         for i, j in dict_name.items():
             print("|{:^20}|{:^22}|{:^30}|{:^22}|".format(i, j[0],j[1],j[2]))
-            print("|{:^20}|{:^22}|{:^30}|{:^22}|".format(' ', ' ',' ',' '))
+            print("|{:^20}|{:^22}|{:^30}|{:^22}|".format(' ', '\\ ',' '))
 
     elif command == "S":
         name = input("Enter name to search:")
