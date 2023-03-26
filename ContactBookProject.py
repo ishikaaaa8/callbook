@@ -14,7 +14,7 @@ while True:
         email = input("Enter email address:")
         location = input("Enter the location:")
         dict_name[name] =[]
-        dict_name[name].append(phone)
+        dict_name[name].append(Phone)
         dict_name[name].append(email)
         dict_name[name].append(location)
 
@@ -62,7 +62,7 @@ while True:
         if name in list(dict_name.keys()):
             print("Name : {}    \nPhone number: {} \nemail id: {} \nlocation: {}".format(name, dict_name[name][0],dict_name[name][1],dict_name[name][2]))
         else:
-            print("No person with this name found.")
+            print("No person with this Name found.")
 
     elif command == "Q":
         break
