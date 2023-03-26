@@ -1,6 +1,6 @@
 dict_name = {}
 print()
-print('------------------------------   WELCOME TO OUR CONTACT BOOK :)  ---------------------------')
+print('------------------------------   WELCOME TO OUR CONTACT BOOK  ---------------------------')
 while True:
     print()
     print("Commands:\nA for Add\nD for Delete\nE for Edit\nP for viewing all contacts\nS for Search\nQ for Quit.")
