@@ -9,7 +9,7 @@ while True:
     print()
 
     if command == "A":
-        name = input("Enter the name:")
+        name = input("Enter the Name:")
         phone = input("Enter phone number:")
         email = input("Enter email address:")
         location = input("Enter the location:")
@@ -29,7 +29,7 @@ while True:
         name = input("Enter the name to edit:")
 
         if name not in list(dict_name.keys()):
-            print("No person with this name found.")
+            print("No person with this Name found.")
 
         else:
             what = input("1 to Edit Name \n2 to edit phone number \n3 to edit email address \n4 to edit location \nEnter your command:")
